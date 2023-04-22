@@ -2,15 +2,12 @@ body{
     font-size: 15px;
     line-height: 1.5;
     margin-left: 100px;
-    
-
 }
 
 header, main, footer{
-    margin: 1.25rem, auto;
+    margin: 1.25rem auto;
     max-width: 760px;
-
-    
+    font-family: 'Open Sans', sans-serif;
 }
 
 header{
@@ -22,7 +19,6 @@ header{
 
 header{
     display: flex;
-
 }
 .name{
     font-size: 50px;
@@ -30,9 +26,11 @@ header{
 }
 
 
-
-
 footer{
     text-align: center;
     background-color: aqua;
+}
+img{
+    margin: 10px;
+    border: 2px solid #000;
 }
