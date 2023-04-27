@@ -27,11 +27,11 @@ header{
     padding: 1.5rem;
 }
 
-
 footer{
-    text-align: center;
     background-color: aqua;
+    color: #000;
 }
+
 img{
     margin: 10px;
     border: 2px solid #000;
