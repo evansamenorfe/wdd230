@@ -12,6 +12,7 @@ header{
 
 footer{
     margin-top: 20px;
+    font-size: 0.9rem;
 }
 header, footer{
     background-color: aqua;
