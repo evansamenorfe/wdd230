@@ -11,7 +11,7 @@ var dayNames = [
 ];
 
 
-//name of months array
+//Name of months array
 const months = [
     "January",
     "February",
