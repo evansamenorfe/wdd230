@@ -1,0 +1,10 @@
+@media screen and (min-width: 32.5em){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .card3{
+        grid-column: span 2;
+
+    }
+}
