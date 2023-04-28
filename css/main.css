@@ -30,6 +30,8 @@ header{
 footer{
     background-color: aqua;
     color: #000;
+    max-width: 760px;
+    padding: 1.5rem;
 }
 
 img{
@@ -38,4 +40,8 @@ img{
 }
 .name{
     flex-wrap: wrap;
+}
+main{
+    max-width: 760px;
+    padding: 1.5rem;
 }
