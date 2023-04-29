@@ -3,8 +3,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    /* .card3{
-        grid-column: span 2;
+/*     .card3{
+        grid-column: span 3;
 
     } */
 }
