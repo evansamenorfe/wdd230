@@ -34,6 +34,7 @@ img{
 
 h3{
     background-color: blueviolet;
+    padding: 1.2rem;
 }
 p, h2, h3{
     font-family: 'Roboto Slab', serif;
@@ -41,4 +42,8 @@ p, h2, h3{
 h1{
     font-family: 'Instrument Serif', serif;
 
+}
+a{
+    padding: 1rem;
+    padding-top: 1rem;
 }
