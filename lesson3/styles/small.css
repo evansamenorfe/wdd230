@@ -1,0 +1,113 @@
+body{
+    background-color: #DDD0C8;
+
+}
+
+header{
+    background-color: #3A8C8C;
+    padding: 10px;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-column: 1/2;
+    grid-row: 2/2;
+}
+
+header img{
+    float: left;
+    margin-right: 10px;
+    width: 70px;
+    
+}
+
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  header h2 {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 100;
+  }
+  main{
+    background-color: #083667;
+    color: #DDD0C8;
+    padding: 10px;
+
+  }
+  .reference{
+    color: #DDD0C8;
+  }
+  
+
+ img{
+    max-width: 100%;
+ }
+
+ img .palette{
+    max-width: 100%;
+ }
+
+
+
+ footer{
+    background-color: #3A8C8C;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 10px;
+
+ }
+
+ table {
+  border-collapse: collapse;
+  margin-top: 1.7rem;
+
+}
+
+tr td {
+  padding: 1rem;
+  border: 1px solid #083667;
+}
+
+tr td:first-child {
+  background-color: #3A8C8C;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2b484e;
+  }
+  
+  nav ul li {
+    flex: 1 1 auto;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #000000;
+    padding: 0.5rem 0;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  nav ul li:hover {
+    background-color: #3A8C8C;
+  }
+
+
+  h1
+  h2{
+    font-family: 'Instrument Serif', serif;;
+  }
+  p{
+    font-family: 'Roboto Slab', serif;
+  }
+  
