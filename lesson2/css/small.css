@@ -21,9 +21,9 @@ header, footer{
     flex-wrap: wrap;
 }
 
-.card1, .card2, .card3{
+.card1 .card2 .card3{
     background-color: gray;
-    border: #000, solid;
+    border: #000 solid;
     border-radius: 5px;
     padding: 8px;
 }
