@@ -17,11 +17,14 @@ footer{
 header, footer{
     background-color: aqua;
     text-align: center;
-    padding: 1.5rem;
     flex-wrap: wrap;
+    border-radius: 5px;
+    border: #000 solid;
+    padding: 8px;
+    
 }
 
-.card1 .card2 .card3{
+.card1, .card2, .card3{
     background-color: gray;
     border: #000 solid;
     border-radius: 5px;

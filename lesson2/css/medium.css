@@ -1,10 +1,11 @@
 @media screen and (min-width: 32.5em){
     main{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
-/*     .card3{
-        grid-column: span 3;
-
-    } */
+    main .card3:nth-of-type(3) {
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+    
 }
