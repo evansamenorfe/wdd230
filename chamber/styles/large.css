@@ -13,6 +13,7 @@
         display: flex;
     }
     nav ul li a { 
+        display: flex;
         text-decoration: none;
         color: #333;
         font-size: 30px;
@@ -92,7 +93,7 @@
         justify-content: center;
     }
     .footer-logo {
-        width: 300px;
+        width: px;
         height: auto;
         margin-top: 50px;
         
