@@ -1,5 +1,5 @@
 body {
-  min-height: 100vh;
+  min-height: 80vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
   background-color: #ddd0c8;
@@ -8,15 +8,26 @@ body {
 /*Header CSS..............*/
 header {
   display: grid;
-  grid-template-columns: 4fr 2fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 4fr auto;
   background-color: #3a8c8c;
   padding: 0.8rem;
+  min-height: 20vh;
+}
+
+.main-header {
+  grid-row: 2/4;
+  grid-column: 1/2;
+}
+.main-header {
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
 }
 
 header #header-logo img {
   width: 60px;
   height: auto;
+  padding-top: 10px;
 }
 
 .img-name {
@@ -25,8 +36,12 @@ header #header-logo img {
 }
 .chamber-name {
   margin-left: 5px;
+  padding-bottom: 10px;
 }
 
+.socials {
+  padding-top: 5px;
+}
 .socials img {
   width: 30px;
   height: auto;
@@ -39,26 +54,35 @@ header #header-logo img {
 .header-date {
   max-width: 100%;
   text-align: center;
-  font-size: 2rem;
+  font-size: .9rem;
   background-color: #323232;
   color: white;
   margin-top: 5px;
-  grid-column: 1/4;
+  grid-column: 1/2;
+  grid-row: 3/4;
   padding: 2px;
 }
+#banner {
+  max-width: 100%;
+  text-align: center;
+  font-size: .9rem;
+  background-color: #323232;
+  color: white;
+  
+  grid-column: 1/2;
+  grid-row: 1/2;
+  
+}
+
 
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
+
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 
 /*nav{
     background-color: #eee;
@@ -84,7 +108,6 @@ nav ul li a {
 }
 
 nav ul li.active a {
-  
   color: #ffff;
 }
 nav ul li a:hover {
@@ -113,17 +136,42 @@ nav ul.open {
 }
 
 /*Main CSS*/
-
+.grid-container div {
+  min-height: auto;
+}
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(7, 1fr);
   gap: 10px; /* add a gap between grid items */
-  padding: 20px;
+  padding: 10px;
   color: #fff;
   text-align: center;
   background-color: #083667;
-  min-height: 820px;
+  min-height: 100%;
+}
+
+/*.herodiv {
+  position: relative;
+}*/
+.call-button {
+  background-color: #ddd0c8;
+  display: block;
+  height: 4rem;
+  width: 15rem;
+  position: relative;
+  bottom: 200px;
+  left: 500px;
+  color: #083667;
+  padding: 3px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  
+}
+
+
+.call-button p {
+  color: #083667;
 }
 .grid-container > div, .spotlight > div {
   border: 2px solid rgba(0, 0, 0, 0.5);
@@ -132,6 +180,13 @@ nav ul.open {
 }
 hr {
   border-style: solid;
+}
+
+.welcome {
+  display: block;
+  position: relative;
+  bottom: 500px;
+  right: 5px;
 }
 
 
@@ -144,12 +199,59 @@ hr {
   display: none;
 }
 
+.call-to-action,
+.event,
+.weather,
+.news,
+.join,
+.spotlight {
+  background-color: #ddd0c8;
+  color: #083667;
+}
+
+.call-to-action h2,
+.event h2,
+.weather h2,
+.news h2,
+.join h2,
+.spotlight h2 {
+  background-color: #083667;
+  color: #ddd0c8;
+}
+
+.call-to-action p,
+.event p,
+.weather p,
+.news p,
+.join p,
+.spotlight p {
+  font-size: 10px;
+}
+
+.call-to-action img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0;
+}
+
+main .grid-container > div .join p{
+  font-size: 100px;
+}
+
 
 /*Footer CSS*/
 footer {
   padding: 0.8rem;
   text-align: center;
   background-color: #3a8c8c;
+  color: #fff;
+  
+}
+
+footer p,
+.footerTime {
+  font-size: 15px;
 }
 
 footer img {
@@ -157,6 +259,11 @@ footer img {
   height: auto;
   padding: 5px;
   font-size: 10px;
+}
+.slash {
+  display: none;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 h1

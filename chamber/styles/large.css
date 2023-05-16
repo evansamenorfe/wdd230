@@ -1,7 +1,22 @@
 @media only screen and (min-width: 64rem){
-    header {
-        grid-template-columns: 2fr 2fr 1fr;
+    .call-button {
+        position: relative;
+        bottom: 350px;
+        left: 600px;
     }
+    main {
+        min-width: fit-content;
+    }
+
+
+    #banner,
+    .header-date {
+        font-size: 20px;
+    }
+    header {
+        min-height: 30vh;
+    }
+    
     nav ul li a{
         padding: .5rem 1rem;
     }
@@ -39,14 +54,16 @@
       .socials img {
         width: 70px;
         margin-top: 20px;
+        padding-bottom: 20px;
     }
     header #header-logo img {
         width: 150px;
         height: auto;
         margin-right: 10px;
         margin-top: 10px;
+        padding-bottom: 20px;
     }
-
+    
     .grid-container {
         grid-template-columns: 1fr 3fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -76,7 +93,8 @@
         grid-row: 1/4;
         
     }
-    .grid-container > div, .spotlight > div, .spot3 {
+    .spot3 {
+        display: block;
         border: 2px solid rgba(0, 0, 0, 0.5);
         padding: 10px;
       
@@ -93,11 +111,17 @@
         justify-content: center;
     }
     .footer-logo {
-        width: px;
+        width: 50px;
         height: auto;
         margin-top: 50px;
         
     }
+    .call-to-action img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 0;
+      }
 
 
 }
