@@ -1,14 +1,31 @@
 @media only screen and (min-width: 35rem) {
     .call-button {
-        position: relative;
-        bottom: 300px;
-        left: 550px;
+        position: absolute;
+        bottom: 30px;
+        left: 60%;
+        height: 4rem;
+        width: 12rem;
+        /* right: 30px; */
     }
 
 
    .information{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+   }
+   .herodiv{
+    position: relative;
+    grid-column: 1/4;
+    /* width: 100px; */
+   }
+   .herodiv img {
+    height: 100%;
+   }
+   .welcome{
+    position: absolute;
+    top: 10px;
+    right: 60%;
+    width: auto;
    }
     .footer1 {
         display: none;
@@ -19,14 +36,14 @@
        
     }
     .grid-container > div {
-         min-height: 300px;
+         min-height: 100%;
     }
     .spotlight {
         grid-template-columns: 1fr 1fr;
         grid-row: 4/5;
     }
     .spotlight > div {
-        min-height: 400px;
+        min-height: 100%;
     }
     .join {
         grid-column: 1/4;
@@ -34,12 +51,13 @@
     }
     .call-to-action {
         grid-column: 1/4;
+        height: 100%;
 
     }
     .call-to-action img {
-        width: 100%;
+        /* width: 100%; */
         height: 100%;
-        object-fit: cover;
+        /* object-fit: cover; */
         padding: 0;
       }
     
@@ -62,6 +80,9 @@
         grid-row: 5/6;
         
     }
+    .weather p {
+        font-size: 25px;
+    }
     .socials img {
         width: 30px;
         
@@ -83,6 +104,18 @@
     .slash {
         display: inline;
     }
+    .spotlight > div .spot1 p {
+        font-size: 18px;
+    }
+    .spot2 {
+        font-size: 18px;
+    }
+    .spot3 p{
+        font-size: 18px;
+    }
+    .welcome h3{
+        font-size: 40px;
+      }
 
 
 

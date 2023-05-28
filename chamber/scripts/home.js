@@ -152,3 +152,4 @@ var placeholder = document.querySelector(".call-to-action");
 placeholder.appendChild(callToAction);
 
 
+paragraph.style.fontSize = "16px";
