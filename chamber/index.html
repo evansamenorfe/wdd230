@@ -23,13 +23,14 @@
     <link href="styles/large.css" rel="stylesheet">
   </head>
   <body>
-    <header>
+    
+    <header class="clearfix">
       <div id="banner"></div>
       <section class="main-header">
         <div class="img-name">
           <div id="header-logo">
             <img
-              src="images/point-of-grace-logo.png"
+              src="images/point-of-grace-logo.webp"
               alt="point of grace logo"
             >
           </div>
@@ -65,7 +66,11 @@
 
     <main class="grid-container">
       <div class="herodiv">
-        <div class="call-to-action"></div>
+        <div class="call-to-action">
+          <figure class="wdd230">
+            <img src="images/wdd230-org.jpg" alt="Wdd230 Image">
+          </figure>
+        </div>
         <section class="call-button">
           <h3>Join The Chamber</h3>
         </section>
@@ -73,10 +78,23 @@
           <h3>Welcome To Point Of Grace</h3>
         </section>
       </div>
-      <div class="event"></div>
-      <div class="weather"></div>
-      <div class="news"></div>
-      <div class="join"></div>
+      <div class="event">
+        <h2>Ribbon Cutting</h2>
+        <h3>The Diamond Shack</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus. Feugiat nibh sed pulvinar proin gravida. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Elementum</p>
+      </div>
+      <div class="weather">
+        <h2>weather</h2>
+        <p><span id="temperature"></span><span id="windSpeed"></span></p>
+      </div>
+      <div class="news">
+        <h2>News Release</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus. Feugiat nibh sed pulvinar proin gravida. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Elementum</p>
+      </div>
+      <div class="join">
+        <h2>Join Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus. Feugiat nibh sed pulvinar proin gravida. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Elementum</p>
+      </div>
       <div class="spotlight">
         <div class="spot1"></div>
         <div class="spot2">  </div>
@@ -87,7 +105,7 @@
     <footer>
       <div class="information">
         <div class="footer-logo">
-          <img src="images/point-of-grace-logo.png" alt="point of grace logo">
+          <img src="images/point-of-grace-logo.webp" alt="point of grace logo">
         </div>
         <div>
           <h2>Point Of Grace</h2>
@@ -121,5 +139,6 @@
     <script src="scripts/date.js"></script>
     <script src="scripts/nav.js"></script>
     <script src="scripts/home.js"></script>
+    <script src="windchill.js"></script>
   </body>
 </html>

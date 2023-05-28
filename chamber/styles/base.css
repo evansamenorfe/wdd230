@@ -11,6 +11,7 @@ header {
   grid-template-rows: auto 4fr auto;
   background-color: #3a8c8c;
   padding: 0.8rem;
+  height: 100%;
   
 }
 
@@ -141,6 +142,7 @@ nav ul.open {
   position: absolute;
   top: -240px;
   right: 80%;
+  color: #083667;
  }
 
 
@@ -240,15 +242,19 @@ hr {
   font-size: 10px;
 }
 
-.call-to-action img {
+/* .call-to-action img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   padding: 0;
-}
+} */
 
 main .grid-container > div .join p{
   font-size: 100px;
+}
+
+main figure.wdd230 {
+  width: 100%;
 }
 
 
@@ -284,8 +290,17 @@ h2 {
 }
 footer,
 p {
-  font-size: 10px;
+  font-size: 30px;
   font-family: 'Roboto Slab', serif;
+}
+p{
+  font-size: 30px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
