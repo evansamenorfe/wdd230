@@ -169,11 +169,14 @@
     }
     .discover-main{
         text-align: center;
+        min-width: auto;
       
     }
     .discover {
+        
         display: grid;
         grid-template-columns: repeat(6, 1fr);
+        gap: 10px;
     }
 
     .image {
