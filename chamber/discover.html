@@ -35,7 +35,7 @@
             >
           </div>
           <div class="chamber-name">
-            <h1>Point of Grace</h1>
+            <h2>Point of Grace</h2>
           </div>
         </div>
 
@@ -65,57 +65,64 @@
       </div>
     </header>
 
-    <main class="grid-container">
-      <div class="herodiv">
-        <div class="call-to-action">
-          <figure class="wdd230">
-            <img src="images/wdd230-org.jpg" alt="Wdd230 Image">
-          </figure>
-        </div>
-        <section class="call-button">
-          <h3>Join The Chamber</h3>
-        </section>
-        <section class="welcome">
-          <h3>Welcome To Point Of Grace</h3>
-        </section>
-      </div>
-      <div class="event">
-        <h2>Ribbon Cutting</h2>
-        <h3>The Diamond Shack</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus. Feugiat nibh sed pulvinar proin gravida. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Elementum</p>
-      </div>
-      <div class="weather">
-        <h2>weather</h2>
-        <p><span id="temperature"></span><span id="windSpeed"></span></p>
-      </div>
-      <div class="news">
-        <h2>News Release</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus. Feugiat nibh sed pulvinar proin gravida. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Elementum</p>
-      </div>
-      <div class="join">
-        <h2>Join Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus. Feugiat nibh sed pulvinar proin gravida. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Elementum</p>
-      </div>
-      <div class="spotlight">
-        <div class="spot1">
-          <h2>Whebmedia</h2>
-          <img src="images/wheb-logo.jpeg" alt="wheb media logo">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquam</p>
-        </div>
-        <div class="spot2">
-          <h2>DevTraco Estates</h2>
-          <img src="images/devtraco.jpg" alt="DevTraco Image">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna m</p>
-        </div>
-        <div class="spot3">
-          <h2>Family History search</h2>
-          <img src="images/family-tree.png" alt="Family Tree">
-          <p>Lorem us. Feugiat nibh sed pulvinar proin gravida. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Elementum</p>
-        </div>
-      </div>
+    <main class="discover-main">
+        <h1>Discover</h1>
+        <div class="discover">
+            <div class="image">
+                <picture>
+                    <img src="images/placeholder.png"
+                        data-src="images/accra-night.webp" alt="night view">
+                </picture>
+                <h2>Night View</h2>
+                <p>Night in Accra is so beautiful.</p>
+            </div>
+            <div class="image">
+                <picture>
+                    <img src="images/placeholder.png"
+                        data-src="images/busy-day.webp" alt="Busy day">
+                </picture>
+                <h2>Busy Day</h2>
+                <p>Accra can get busy and over crowded sometimes</p>
+            </div>
+            <div class="image">
+                <picture>
+                    <img src="images/placeholder.png"
+                        data-src="images/kenkey.webp" alt="Kenkey">
+                </picture>
+                <h2>The People's Food</h2>
+                <p>The favorite of the people is kenkey when it comes to food, Ther is a festival you can check out.</p>
+            </div>
+            <div class="image">
+                <picture>
+                    <img src="images/placeholder.png"
+                        data-src="images/scenery.webp" alt="Water Dock">
+                </picture>
+                <h2>Scerine Dock</h2>
+                <p>Scerinity is so important in Accra!</p>
+            </div>
+            <div class="image">
+                <picture>
+                    <img src="images/placeholder.png"
+                        data-src="images/wli.webp" alt="waterfall">
+                </picture>
+                <h2>Wli Water Fall</h2>
+                <p>The magnificent waterfall.</p>
+            </div>
+            <div class="image">
+                <picture>
+                    <img src="images/placeholder.png"
+                        data-src="images/independence.webp" alt="Independence square">
+                </picture>
+                <h2>Independence square</h2>
+                <p>This is the historic independence square located in Accra.</p>
+            </div>
+        </div>     
     </main>
 
     <footer>
+        <div onload="onPageLoad()">
+            <p>Days between visits: <span id="daysBetweenVisits"></span></p>
+        </div>
       <div class="information">
         <div class="footer-logo">
           <img src="images/point-of-grace-logo.webp" alt="point of grace logo">
@@ -149,9 +156,11 @@
         <div id="lastModified">Last Modified</div>
       </div>
     </footer>
+    <script src="scripts/lazyload.js"></script>
     <script src="scripts/date.js"></script>
     <script src="scripts/nav.js"></script>
     <script src="scripts/home.js"></script>
+    <script src="scripts/number-of-days.js"></script>
     <script src="windchill.js"></script>
   </body>
 </html>

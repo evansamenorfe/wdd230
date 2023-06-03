@@ -30,6 +30,7 @@
     .footer1 {
         display: none;
     }
+    
     .grid-container{
         grid-template-rows: repeat(5, 1fr);
         grid-template-columns: 1fr 1fr 1fr;
@@ -116,6 +117,26 @@
     .welcome h3{
         font-size: 40px;
       }
+
+
+
+
+      /*Discover CSS*/
+    /*--------------------------------------------------------------------------*/
+    .discover div:hover{
+        -moz-box-shadow: 0 0 10px #ccc;
+        -webkit-box-shadow: 0 0 10px #ccc;
+        box-shadow: 0 0 10px #ccc;
+      }
+    #disc1 img,
+    #disc2 img,
+    #disc3 img,
+    #disc4 img,
+    #disc5 img,
+    #disc6 img{
+    width: 350px;
+    height: 3500px;
+    }
 
 
 

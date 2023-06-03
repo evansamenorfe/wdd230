@@ -1,6 +1,5 @@
 body {
-  min-height: 80vh;
-  
+  /* min-height: 80vh; */
   background-color: #ddd0c8;
 }
 
@@ -267,7 +266,9 @@ footer {
   
 }
 
-footer p,
+footer p{
+  font-size: 15px;
+}
 .footerTime {
   font-size: 15px;
 }
@@ -288,13 +289,15 @@ h1
 h2 {
   font-family: 'Instrument Serif', serif;
 }
-footer,
-p {
-  font-size: 30px;
+footer p {
+  /* font-size: 1px; */
   font-family: 'Roboto Slab', serif;
 }
 p{
-  font-size: 30px;
+  font-size: 2rem;
+}
+.footerTime{
+  font-size: 1rem;
 }
 
 .clearfix:after {
@@ -303,6 +306,44 @@ p{
   clear: both;
 }
 
+
+/*Discover CSS*/
+/*--------------------------------------------------------------------------*/
+.discover-main {
+  display: block;
+  margin: auto;
+  gap: 10px;
+ 
+}
+
+.discover div {
+  padding: 10px;
+}
+
+
+/* #disc1 img,
+#disc2 img,
+#disc3 img,
+#disc4 img,
+#disc5 img,
+#disc6 img{
+  width: 300px;
+  height: 300px;
+} */
+.discover-main h1{
+  text-align: center;
+  font-size: 4rem;
+
+}
+.discover-main p{
+  font-size: 1.8rem;
+
+}
+.discover-main{
+  justify-content: center;
+  align-items: center
+
+}
 
 
 

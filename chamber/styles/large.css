@@ -147,4 +147,45 @@
       }
 
 
+
+      /*Discover CSS*/
+/*--------------------------------------------------------------------------*/
+    .discover div:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+    }
+    .image{
+    width: 500px;
+    height: 500px;
+    }
+    picture img {
+        transition: opacity 0.3s ease-in-out;
+    }
+      
+    picture img:hover {
+        opacity: 0.8;
+        box-shadow: 0 0 50px #333;
+    }
+    .discover-main{
+        text-align: center;
+      
+    }
+    .discover {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+      
+
+      
+      
+    
+
+
 }
