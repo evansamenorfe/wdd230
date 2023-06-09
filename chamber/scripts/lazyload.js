@@ -1,26 +1,34 @@
-const images = document.querySelectorAll('img');
-const options = { threshold: 0.5, rootMargin: '0px 0px -100px 0px' };
+const allImages = document.querySelectorAll("img[data-src]")
 
-const preloadImage = (img) => {
-  const src = img.getAttribute('data-src');
-  if (!src) {
-    return;
-  }
-  img.src = src;
+const lazyLoad = (img) => {
+    img.setAttribute("src", img.getAttribute("data-src"))
+    img.onload = () => {
+        img.removeAttribute("data-src")
+        img.className = "in"
+    };
+};
+
+
+const options = {
+    threshold: 0,
+    rootMargin: "0px 0px 50px 0px"
 }
 
-const io = new IntersectionObserver((entries, io) => {
-    entries.forEach(entry => {
-        if (!entry.isIntersecting) {
-            return;
-        } else {
-            preloadImage(entry.target);
-            io.unobserve(entry.target);
-        }
-    });
-}, options);
-
-images.forEach(image => {
-    io.observe(image);
-});
-
+if ('IntersectionObserver' in window) {
+    const obsrvr = new IntersectionObserver((items, observer) => {
+        items.forEach((item) => {
+            if(item.isIntersecting) {
+                lazyLoad(item.target)
+                observer.unobserve(item.target)
+            }
+        })
+    }, options)
+    allImages.forEach((img) => {
+        obsrvr.observe(img)
+    })
+}
+else {
+    allImages.forEach((img) => {
+        lazyLoad(img)
+    })
+}

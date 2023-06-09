@@ -13,7 +13,10 @@
         const lastVisitDate = new Date(visitTimestamp);
         const currentDate = new Date();
         const daysBetweenVisits = getDaysBetweenDates(lastVisitDate, currentDate);
+        console.log(daysBetweenVisits);
         document.getElementById('daysBetweenVisits').textContent = daysBetweenVisits;
       }
       localStorage.setItem('visitTimestamp', new Date());
     }
+
+    onPageLoad()
