@@ -213,5 +213,15 @@
         grid-column: 2/3;
     }
 
+    .membershipLevels p {
+        font-size: 1.8rem;
+    }
+    .silver,
+    .gold,
+    .bronze ul li{
+        font-size: 1.8rem;
+    }
+
+
 
 }
