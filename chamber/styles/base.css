@@ -347,3 +347,99 @@ p{
 
 
 
+/**Join page CSS-------------------------------------------------------------------------*/
+.join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.membershipLevels {
+  margin: 10px;
+}
+.membershipLevels p {
+  font-size: 1rem;
+}
+.membershipLevels h2 {
+  padding: 6px;
+}
+
+.form h1 {
+  display: block;
+  text-align: center;
+}
+
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  color: black;
+}
+
+.form form input, .form textarea {
+  font-size: 1em;
+  width: 450px;
+  height: 30px;
+  padding: 10px;
+  margin: 10px auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: #e5e5e5;
+}
+
+.form textarea {
+  height: 250px;
+}
+
+.form form label {
+  font-weight: 700;
+  text-align: left;
+  margin: 5px;
+}
+
+label, textarea, select{
+  display: inline-block;
+  clear: left;
+  width: 450px;
+  text-align: left;
+}
+
+.form #submit {
+  background-color: #14213d;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  z-index: 5;
+  width: 200px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 15px;
+}
+
+.form #submit:hover {
+  background-color: #fca311;
+}
+
+.thankyou {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.thankyou h1, .board h1 {
+  display: block;
+}
+
