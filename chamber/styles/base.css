@@ -438,6 +438,9 @@ label, textarea, select{
   text-align: center;
   min-height: 100vh;
 }
+.required {
+  color: red;
+}
 
 .thankyou h1, .board h1 {
   display: block;

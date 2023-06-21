@@ -54,7 +54,7 @@
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="join.html">Join</a></li>
-            <li><a href="#">Directory</a></li>
+            <li><a href="directory.html">Directory</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
@@ -69,19 +69,19 @@
         <div class="form">
             <h1>Join Us</h1>
             <form action="thankyou.html" method="GET" autocomplete="on">
-                <label for="fname">
+                <label for="fname"><span class="required">*</span>
                     First Name
                     <input type="text" id="fname" name="fname" required>
                 </label>
 
-                <label for="lname">
+                <label for="lname"><span class="required">*</span>
                     Last Name
                     <input type="text" id="lname" name="lname" required>
                 </label>
 
-                <label for="business">
+                <label for="business"><span class="required">*</span>
                     Business Name
-                    <input type="text" id="business" name="business" pattern="[- A-Z a-z 0-9]" required>
+                    <input type="text" id="business" name="business" minlength="7" pattern="[A-Za-z\s-]+" minlength="7">
                 </label>
 
                 <label for="title">
@@ -89,7 +89,7 @@
                     <input type="text" id="title" name="title">
                 </label>
 
-                <label for="email">
+                <label for="email"><span class="required">*</span>
                     Email
                     <input type="email" placeholder="evansamenorfe@gmail.com" id="email" name="email" required>
                 </label>
@@ -117,7 +117,7 @@
 
                 <label for="dateTime" hidden>
                     Datetime
-                    <input type="datetime-local" name="dateTime" id="dateTime" required hidden>
+                    <input type="hidden" name="dateTime" id="dateTime" required hidden>
                 </label>
                 <input type="submit" id="submit" value="submit">
                 
@@ -226,6 +226,7 @@
     <script src="scripts/nav.js"></script>
     <script src="scripts/home.js"></script>
     <script src="scripts/number-of-days.js"></script>
-    <script src="scripts/thank-you.js"></script>
+    <script src="scripts/hidden-time.js"></script>
+    
   </body>
 </html>
