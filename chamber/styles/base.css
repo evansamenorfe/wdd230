@@ -245,11 +245,11 @@ hr {
   grid-column: 1/3;
 }
 
-.call-to-action p,
-.event p,
-.weather p,
-.news p,
-.join p,
+.call-to-action p {font-size: 10px;}
+.event p {font-size: 10px;}
+.weather p {font-size: 10px;}
+.news p {font-size: 10px;}
+.join p {font-size: 10px;}
 .spotlight p {
   font-size: 10px;
 }
