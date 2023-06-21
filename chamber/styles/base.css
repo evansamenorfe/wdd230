@@ -246,12 +246,12 @@ hr {
 }
 
 .call-to-action p {font-size: 10px;}
-.event p {font-size: 15px;}
-.weather p {font-size: 15px;}
-.news p {font-size: 15px;}
-.join p {font-size: 15px;}
+.event p {font-size: 10px;}
+.weather p {font-size: 10px;}
+.news p {font-size: 10px;}
+.join p {font-size: 10x;}
 .spotlight p {
-  font-size: 15px;
+  font-size: 110px;
 }
 
 /* .call-to-action img {
