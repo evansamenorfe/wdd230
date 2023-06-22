@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-color: rgb(147, 197, 250);
+    font-size: 3.9rem;
+    padding-left: 40rem;
+    padding-right: 40rem;
+    
+}
+header, footer {
+    background-color: rgb(205, 231, 255);
+    height: 25rem;
+    justify-items: center;
+    
+    border: 1px solid black;
+    padding: 10px;
+}
+header {
+    font-size: 4rem;
+    
+}
+footer {
+    height: 10rem;
+}
+
+figure img {
+    width: 7em;
+   border: 2px solid #0000;
+}
+
