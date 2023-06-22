@@ -2,8 +2,7 @@ body {
     text-align: center;
     background-color: rgb(147, 197, 250);
     font-size: .9rem;
-  
-    
+    min-height: 100vh;    
 }
 header, footer {
     background-color: rgb(205, 231, 255);
