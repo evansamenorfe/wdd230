@@ -6,18 +6,20 @@ body {
 }
 header, footer {
     background-color: rgb(205, 231, 255);
-    height: 10rem;
+    
     justify-items: center;
     
     border: 1px solid black;
     padding: 10px;
 }
 header {
-    font-size: 2rem;
+    font-size: 1rem;
+    height: 10rem;
     
 }
 footer {
     height: 5rem;
+    font-size: .4rem;
 }
 
 figure img {
