@@ -7,7 +7,7 @@ body {
 }
 header, footer {
     background-color: rgb(205, 231, 255);
-    height: 25rem;
+    height: 10rem;
     justify-items: center;
     
     border: 1px solid black;
@@ -18,7 +18,7 @@ header {
     
 }
 footer {
-    height: 10rem;
+    height: 5rem;
 }
 
 figure img {
