@@ -85,8 +85,15 @@
         <p>There will be a rebbon cuttin at the forecourts of Diamond shack at 7:00 am Saturday. Do well to join us as we welcome the new business</p>
       </div>
       <div class="weather">
-        <h2>weather</h2>
-        <p><span id="temperature"></span><span id="windSpeed">N/A</span></p>
+        <h2>Weather</h2>
+        <figure class="weather-icon">
+          <img src="" alt="" id="weather-icon">
+          <span id="current-temp"></span> &deg;F
+          <figcaption></figcaption>
+        </figure>
+        <hr>
+        <span id="windSpeed"></span> <br>
+        <span id="windChill"></span>
       </div>
       <div class="news">
         <h2>News Release</h2>
@@ -125,6 +132,10 @@
     </main>
 
     <footer>
+      OpenWeatherMap.org API Test
+      <div onload="onPageLoad()">
+        <p>Days between visits: <span id="daysBetweenVisits"></span></p>
+    </div>
       <div class="information">
         <div class="footer-logo">
           <img src="images/point-of-grace-logo.webp" alt="point of grace logo">
@@ -161,6 +172,7 @@
     <script src="scripts/date.js"></script>
     <script src="scripts/nav.js"></script>
     <script src="scripts/home.js"></script>
-    <script src="windchill.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/number-of-days.js"></script>
   </body>
 </html>

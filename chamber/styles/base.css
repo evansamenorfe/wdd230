@@ -141,7 +141,7 @@ nav ul.open {
   position: absolute;
   top: -240px;
   right: 80%;
-  color: #ddd0c8;
+  color: #083667;
   padding-left: 15px;
  }
 
@@ -297,6 +297,17 @@ footer img {
   display: none;
   margin-left: 10px;
   margin-right: 10px;
+}
+.weather .weather-icon img {
+  width: 7rem;
+}
+.weather .weather-icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#current-temp {
+  font-size: 2rem;
+  text-align: justify;
 }
 
 h1
