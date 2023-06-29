@@ -1,0 +1,596 @@
+body {
+  /* min-height: 80vh; */
+  background-color: #ddd0c8;
+}
+
+/*Header CSS..............*/
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 4fr auto;
+  background-color: #3a8c8c;
+  padding: 0.8rem;
+  height: 100%;
+  
+}
+
+.main-header {
+  grid-row: 2/4;
+  grid-column: 1/2;
+}
+.main-header {
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+}
+
+header #header-logo img {
+  width: 60px;
+  height: auto;
+  padding-top: 10px;
+}
+
+.img-name {
+  display: flex;
+  
+}
+.chamber-name {
+  margin-left: 5px;
+  padding-bottom: 10px;
+}
+
+.socials {
+  padding-top: 5px;
+}
+.socials img {
+  width: 30px;
+  height: auto;
+  justify-content: center;
+}
+.chamber-name h1 {
+  font-size: 20px;
+}
+
+.header-date {
+  max-width: 100%;
+  text-align: center;
+  font-size: .9rem;
+  background-color: #323232;
+  color: white;
+  margin-top: 5px;
+  grid-column: 1/2;
+  grid-row: 3/4;
+  padding: 2px;
+}
+#banner {
+  max-width: 100%;
+  text-align: center;
+  font-size: .9rem;
+  background-color: #323232;
+  color: white;
+  
+  grid-column: 1/2;
+  grid-row: 1/2;
+  
+}
+
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  box-sizing: border-box;
+}
+
+
+/*nav{
+    background-color: #eee;
+}*/
+nav button {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #333;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+  color: #ffff;
+}
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  display: none;
+}
+nav ul.open {
+  display: block;
+}
+
+#humburgerbtn span:nth-child(1) {
+  display: block;
+}
+#humburgerbtn span:nth-child(2) {
+  display: none;
+}
+
+#humburgerbtn.open span:nth-child(1) {
+  display: none;
+}
+#humburgerbtn.open span:nth-child(2) {
+  display: block;
+}
+
+
+
+
+.welcome {
+  position: absolute;
+  top: -240px;
+  right: 80%;
+  color: #083667;
+  padding-left: 15px;
+ }
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 10px; /* add a gap between grid items */
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  background-color: #083667;
+  
+}
+
+.herodiv {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  /* display: block; */
+}
+.call-button {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  background-color: #ddd0c8;
+  display: block;
+  height: 3rem;
+  width: 10rem;
+  color: #083667;
+  padding: 2px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  font-size: 1px;
+  margin: 20px;
+  
+}
+
+.herodiv img {
+  height: 100%;
+ }
+.grid-container .herodiv .call-to-action .wdd230 {
+  margin: 0;
+}
+
+.call-button p {
+  color: #083667;
+  font-size: 10px;
+}
+.grid-container > div, .spotlight > div {
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  padding: 10px;
+
+}
+hr {
+  border-style: solid;
+}
+
+.call-to-action img {
+  object-fit: cover;
+}
+.welcome {
+  display: block;
+  position: relative;
+  bottom: 500px;
+  right: 5px;
+}
+
+
+.spotlight {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-row: 6/8;
+}
+.spot3 {
+  display: none;
+}
+
+.call-to-action,
+.event,
+.weather,
+.news,
+.join,
+.spotlight {
+  background-color: #ddd0c8;
+  color: #083667;
+}
+
+.call-to-action h2,
+.event h2,
+.weather h2,
+.news h2,
+.join h2,
+.spotlight h2 {
+  background-color: #083667;
+  color: #ddd0c8;
+}
+.join {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4.2rem 1fr;
+}
+.join h2 {
+  grid-column: 1/3;
+}
+.join p {
+  grid-column: 1/3;
+}
+
+/* .call-to-action p {font-size: 10px;}
+.event p {font-size: 10px;}
+.weather p {font-size: 10px;}
+.news p {font-size: 10px;}
+.join p {font-size: 10x;}
+.spotlight p
+ { */
+.grid-container p{
+  font-size: 20px;
+}
+.weather #windChill, #windSpeed{
+  font-size: 20px;
+}
+figcaption {
+  font-size: 20px;
+  max-width: auto;
+}
+.news ul li{
+  list-style: none;
+  font-size: 20px;
+}
+  
+
+
+/* .call-to-action img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0;
+} */
+
+main .grid-container > div .join p{
+  font-size: 100px;
+}
+
+main figure.wdd230 {
+  width: 100%;
+}
+
+
+/*Footer CSS*/
+footer {
+  padding: 0.8rem;
+  text-align: center;
+  background-color: #3a8c8c;
+  color: #fff;
+  
+}
+
+footer p{
+  font-size: 15px;
+}
+.footerTime {
+  font-size: 15px;
+}
+
+footer img {
+  width: 100px;
+  height: auto;
+  padding: 5px;
+  font-size: 10px;
+}
+.slash {
+  display: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.weather .weather-icon img {
+  width: 7rem;
+}
+.weather .weather-icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#current-temp {
+  font-size: 2rem;
+  text-align: justify;
+}
+
+h1
+h2 {
+  font-family: 'Instrument Serif', serif;
+}
+footer p {
+  /* font-size: 1px; */
+  font-family: 'Roboto Slab', serif;
+}
+p{
+  font-size: 2rem;
+}
+.footerTime{
+  font-size: 1rem;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.clearfix {
+  width: 100%;
+}
+.grid-container .herodiv .call-to-action figure img {
+  height: auto;
+  max-width: 100%;
+ }
+
+
+/*Discover CSS*/
+/*--------------------------------------------------------------------------*/
+.discover-main {
+  display: block;
+  margin: auto;
+  gap: 10px;
+ 
+}
+
+.discover div {
+  padding: 10px;
+}
+
+
+/* #disc1 img,
+#disc2 img,
+#disc3 img,
+#disc4 img,
+#disc5 img,
+#disc6 img{
+  width: 300px;
+  height: 300px;
+} */
+.discover-main h1{
+  text-align: center;
+  font-size: 4rem;
+
+}
+.discover-main p{
+  font-size: 1.8rem;
+
+}
+.discover-main{
+  justify-content: center;
+  align-items: center
+
+}
+
+
+
+/**Join page CSS-------------------------------------------------------------------------*/
+.join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.membershipLevels {
+  margin: 10px;
+}
+.membershipLevels p {
+  font-size: 1rem;
+}
+.membershipLevels h2 {
+  padding: 6px;
+}
+
+.form h1 {
+  display: block;
+  text-align: center;
+}
+
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  color: black;
+}
+
+.form form input, .form textarea {
+  font-size: 1em;
+  width: 450px;
+  height: 30px;
+  padding: 10px;
+  margin: 10px auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: #e5e5e5;
+}
+
+.form textarea {
+  height: 250px;
+}
+
+.form form label {
+  font-weight: 700;
+  text-align: left;
+  margin: 5px;
+}
+
+label, textarea, select{
+  display: inline-block;
+  clear: left;
+  width: 450px;
+  text-align: left;
+}
+
+.form #submit {
+  background-color: #14213d;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  z-index: 5;
+  width: 200px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 15px;
+}
+
+.form #submit:hover {
+  background-color: #1173fc;
+}
+
+.thankyou {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+  min-height: 100vh;
+}
+.required {
+  color: red;
+}
+
+.thankyou h1, .board h1 {
+  display: block;
+}
+.gold h2,
+.silver h2,
+.bronze h2,
+.nonprofit h2 {
+  font-size: 20px;
+}
+
+
+
+
+/* -----------Directory CSS------------------------------- */
+
+.directory #content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.cards section {
+  border: 2px solid #14213d;
+  background-color: #ddd0c8;
+  padding: 30px;
+  text-align: center;
+  width: 300px;
+  margin: 20px;
+}
+
+.directory h2, h1 {
+  color: #14213d;
+  text-align: center;
+}
+.directory .cards img {
+  width: 250px;
+  height: 180px;
+}
+
+.directory a {
+  text-decoration: none;
+  color: #14213d;
+  font-size: 1.9em;
+}
+
+.directory p:first-of-type {
+  font-style: italic;
+  font-size: 1.95em;
+}
+
+.directory .icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.icons button {
+  background-color: #ddd0c8;
+  border: none;   
+}
+
+.icons button:hover {
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+
+.icons img {
+  width: 50px;
+}
+
+.directory table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: auto;
+  overflow: hidden;
+}
+
+.directory td {
+
+  padding: 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: #e5e5e5;
+}
+
+tr td {
+  display: block;
+}
+.card section p {
+  font-size: .2rem;
+}

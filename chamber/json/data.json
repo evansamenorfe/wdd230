@@ -1,0 +1,100 @@
+{
+    "business": [
+        {
+            "name": "Wheb Media",
+            "address": "42 North Street Accra",
+            "phoneNumber": "(+233) 455 566 567",
+            "website": "wwww.whebmedia.com",
+            "imageURL": "images/wheb-logo.jpeg",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "Angular Grooming",
+            "address": "111 South Accra",
+            "phoneNumber": "(+233) 4556 678 898",
+            "website": "www.angulargrooming.com",
+            "imageURL": "images/geye.webp",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Lioness Inc.",
+            "address": "Koliko 4th Avenue",
+            "phoneNumber": "(+233) 456 045 621",
+            "website": "www.lionessinc.org",
+            "imageURL": "images/lioness.webp",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Ross And Rizz Coporation",
+            "address": "Mackoffie Stress, Ho",
+            "phoneNumber": "(+233) 247 934 883",
+            "website": "www.rrosz.com",
+            "imageURL": "images/rizzz.webp",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "Dev Traco Estates",
+            "address": "Community 25 Tema",
+            "phoneNumber": "(+233) 235 795 357",
+            "website": "www.devestates.com",
+            "imageURL": "images/devtraco.jpg",
+            "membershipLevel": "Platinium"
+        },
+        {
+            "name": "Family History",
+            "address": "90th Independence Ave.",
+            "phoneNumber": "(+233) 3458 875 677",
+            "website": "www.familyhistory.org",
+            "imageURL": "images/family-tree.png",
+            "membershipLevel": "Platinium"
+        },
+        {
+            "name": "Alpha Motors",
+            "address": "Ashaiman, Zenu New Your",
+            "phoneNumber": "(+233) 456 567 654",
+            "website": "alphamotors.com",
+            "imageURL": "images/alph.webp",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "Golden Eye",
+            "address": "Optical 14 Street",
+            "phoneNumber": "(+233) 234 567 789",
+            "website": "godseye.com",
+            "imageURL": "images/goldeneye.webp",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Maame Sekuni Jewellery",
+            "address": "Community 2, Tema",
+            "phoneNumber": "(+233) 234 567 789",
+            "website": "sekumidiamond.com",
+            "imageURL": "images/diamond.webp",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Safe Space Therapy",
+            "address": "Madina, Accra",
+            "phoneNumber": "(+233) 114 567 789",
+            "website": "safespace.com",
+            "imageURL": "images/safespace.webp",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "Vector Limited",
+            "address": "Circle, Tema",
+            "phoneNumber": "(+233) 030 567 789",
+            "website": "vectorlimited.com",
+            "imageURL": "images/vector.webp",
+            "membershipLevel": "Diamond"
+        },
+        {
+            "name": "Focus Lens",
+            "address": "Community 1, Tema",
+            "phoneNumber": "(+233) 234 999 789",
+            "website": "focuslens.com",
+            "imageURL": "images/focusles.webp",
+            "membershipLevel": "Silver"
+        }
+    ]
+}
