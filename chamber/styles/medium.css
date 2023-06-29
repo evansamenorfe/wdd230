@@ -123,10 +123,7 @@
         margin-right: 20px;
         margin-top: 20px;
     }
-    nav button#humburgerbtn {
-        size: 50px;
-    }
-    div.header-date span#current-date {
+       div.header-date span#current-date {
         font-size: 510px;
     }
     div.headeer-date {
