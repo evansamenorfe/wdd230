@@ -8,6 +8,19 @@
         /* right: 30px; */
     }
 
+    .grid-container p{
+        font-size: 30px;
+    }
+    .weather #windChill, #windSpeed{
+        font-size: 30px;
+    }
+    figcaption {
+        font-size: 20px;
+        max-width: 100%;
+    }
+    .news ul li{
+        font-size: 30px;
+    }
 
    .information{
     display: grid;
@@ -18,8 +31,9 @@
     grid-column: 1/4;
     /* width: 100px; */
    }
-   .herodiv img {
-    height: 100%;
+   .grid-container .herodiv .call-to-action figure img {
+    height: auto;
+    max-width: 100%;
    }
    .welcome{
     position: absolute;
@@ -32,7 +46,7 @@
     }
     
     .grid-container{
-        grid-template-rows: repeat(5, 1fr);
+        
         grid-template-columns: 1fr 1fr 1fr;
        
     }
@@ -61,6 +75,13 @@
         /* object-fit: cover; */
         padding: 0;
       }
+
+      footer .information .footer-logo img {
+        width: 250px;
+      }
+      footer .footerTime {
+        font-size: 30px;
+      }
     
     
     .spotlight {
@@ -88,8 +109,12 @@
         width: 30px;
         
     }
+    header.clearfix section.main-headere div.image-name div#header-logo {
+        width: 140px;
+    }
+
     .chamber-name h1 {
-        font-size: 30px;
+        font-size: 50px;
         margin-bottom: 30px;
     }
     header #header-logo img {
@@ -97,6 +122,15 @@
         height: auto;
         margin-right: 20px;
         margin-top: 20px;
+    }
+    nav button#humburgerbtn {
+        size: 50px;
+    }
+    div.header-date span#current-date {
+        font-size: 510px;
+    }
+    div.headeer-date {
+        font-size: 20px;
     }
     header {
         padding-top: 20px;
@@ -116,9 +150,14 @@
     }
     .welcome h3{
         font-size: 40px;
-      }
-
-
+     }
+     footer p, a{
+        font-size: 30px;
+     }
+     .socials img {
+        width: 100px;
+     }
+     
 
 
       /*Discover CSS*/
@@ -135,21 +174,29 @@
     #disc5 img,
     #disc6 img{
     width: 350px;
-    height: 3500px;
+    height: 3500px; 
     }
 
-    .join {
+    /* .join{
+        display: flex;
         display: grid;
         grid-template-columns: 1fr 1fr;
-    }
+    }  */
     .membershipLevels p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     .silver,
     .gold,
     .bronze ul li{
         font-size: 1.4rem;
     }
+    .gold p,
+    .silver p,
+    .bronze p,
+    .nonprofit p {
+        font-size: 5px;
+    }
+
 
 
 
