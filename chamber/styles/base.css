@@ -377,6 +377,10 @@ p{
   align-items: center
 
 }
+picture img {
+  width: 300px;
+  height: 400px;
+}
 
 
 
