@@ -73,9 +73,9 @@
             srcset="images/wdd230-org-small.jpg 480w,
                     images/wdd230-org-medium.jpg 768w,
                     images/wdd230-org-large.jpg 1024w"
-            sizes="(max-width: 480px) 100vw,
-                    (max-width: 768px) 80vw,
-                    50vw"
+            sizes="(min-width: 1480px) calc(60vw - 48px),
+                    (min-width: 1040px) calc(86.43vw - 434px),
+                    calc(100vw - 44px)"
             alt="This is the call to action image">
           </figure>
         </div>
@@ -116,8 +116,8 @@
         
       </div>
       <div class="join">
-        <h2>Join Us</h2>
-        <p>All business owners are free to join us. All you need to do is to fill out the membership form <a href="join.html">here</a>and we will rech out to you.</p> 
+        <h2> <a href="join.html"></a>Join Us</h2>
+        <p>All business owners are free to join us. All you need to do is to fill out the membership form <a href="join.html">here</a> and we will rech out to you.</p> 
       </div>
       <div class="spotlight">
         <div class="spot1">
@@ -139,7 +139,7 @@
     </main>
 
     <footer>
-      <p>OpenWeatherMap.org API Test</p>
+      <p> <a href="https://openweathermap.org/">Open Weather API Test</a></p>
       <div onload="onPageLoad()">
         <p>Days between visits: <span id="daysBetweenVisits"></span></p>
     </div>

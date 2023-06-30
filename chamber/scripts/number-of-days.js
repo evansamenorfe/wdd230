@@ -20,3 +20,4 @@
     }
 
     onPageLoad()
+    onload="onPageLoad(onLoad)"

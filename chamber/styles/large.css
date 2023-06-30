@@ -6,15 +6,13 @@
     } */
     .call-button {
         position: absolute;
-        bottom: 190px;
+        bottom: 330px;
         left: 60%;
         height: 4rem;
         width: 13rem;
-        /* right: 30px; */
+        font-size: 19px;
     }
-    /* main {
-        min-width: fit-content;
-    } */
+   
 
 
     #banner,
