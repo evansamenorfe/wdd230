@@ -14,16 +14,16 @@ var images = [
   ];
   
   var textOverlays = [,
-    "Text Overlay 2",
-    "Text Overlay 3",
-    "Text Overlay 4",
-    "Text Overlay 5",
-    "Text Overlay 6",
-    "Text Overlay 7",
-    "Text Overlay 8",
-    "Text Overlay 9",
-    "Text Overlay 10",
-    "Text Overlay 11",
+    "Nutritiuos fruits juice made from quality organic fruits",
+    "Deliveries available at your door step",
+    "Variaty of juice available on your order",
+    "How often do you take berries?",
+    "100% nutrients for your immune system",
+    "Ready for Cosumption",
+    "Fresh Organic Fruits",
+    "Fresh Organic Banana",
+    "Free Deliveries within Sanata Monica",
+    "Get yours now",
     
   ];
   
