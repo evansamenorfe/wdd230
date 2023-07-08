@@ -1,0 +1,96 @@
+@media only screen and (min-width: 64rem){
+    #navigation{
+        display: flex;
+        text-align: right;
+    }
+    nav ul li a{
+        text-align: center;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 10px;
+
+    }
+    .summary {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .sidebar {
+        display: contents;
+        width: 200px; 
+        height: 100vh;
+        background-color: #f3dcd1;
+        padding: 20px;
+        text-align: center;
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    
+      
+    .image-container {
+        position: relative;
+    }
+      
+    .sidebar img {
+        max-width: 100%;
+        height: 400px;
+        padding: 10px;
+    }
+      
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(65, 57, 57); 
+        color: white; 
+        padding: 10px;
+    }
+    #call-to-action {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .site-weather {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    .image-card1 {
+        padding: 10px;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .specialty {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+   
+    
+
+
+
+
+
+    /*----------- Footer --------------*/
+.modification {
+    font-size: 20px;
+}
+.infomation {
+    
+    text-align: center;
+}
+.infomation p {
+    font-size: 20px;
+}
+footer {
+    color: #ffffff;
+}
+footer a {
+    
+    font-size: 20px;
+}
+      
+
+}
