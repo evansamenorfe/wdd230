@@ -112,7 +112,13 @@ nav ul li a:hover {
     background-color: #7B7E7F;
     padding: 5px;
 }
-
+.image-card2 img,
+.image-card3 img,
+.image-card4 img{
+    height: 200px;
+    width: 300px;
+    padding: 10px
+}
 
 
 
