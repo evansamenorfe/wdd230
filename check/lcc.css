@@ -12,20 +12,11 @@
         grid-row: 1/2;
     }
     .sidebar {
-        /* display: contents;
-        width: 200px; 
-        height: 100vh;
-        background-color: #f3dcd1;
-        padding: 20px;
-        text-align: center; */
+        
         grid-column: 2/3;
         grid-row: 1/3;
     }
     
-      
-   
-      
-   
       
    
     #call-to-action {

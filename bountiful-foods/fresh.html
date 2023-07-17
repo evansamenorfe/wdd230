@@ -1,21 +1,95 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Fresh Page</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-  <h1>Fresh Page</h1>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <link rel="icon" href="favicon.ico">
+    <meta
+      name="description"
+      content="This is a website site for a fruit juice business located in Saint Monica of South California."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <header class="clearfix">
+        <div class="header-date">
+            <span id="currentdate"></span>
+        </div>
+        <nav>
+          <ul id="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fresh.html">Fresh</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </nav>
+        <div class="mainheader">
+          <div class="header-details">
+            <img src="images/bountiful-logo.webp" alt="Logo of Bountiful Logo">
+            <h1 class="header-name">Bountiful Foods</h1>
+          </div>
+          <div class="socials">
+            <a href="https://web.facebook.com/login.php/?_rdc=1&_rdr">
+              <img src="images/facebook-logo.png" alt="facebook icon">
+            </a>
+            <a href="https://twitter.com/">
+              <img src="images/twitter-logo1.png" alt="twitter icon">
+            </a>
+            <a href="https://linkedin.com/">
+              <img src="images/linkedin-logo.webp" alt="linkedin icon">
+            </a>
+          </div>
+        </div>
+        
+        
+    </header>
 
-  <form id="fresh-form">
-    <label for="drink-name">Drink Name:</label>
-    <input type="text" id="drink-name" name="drink-name" required>
+    <main class="about">
 
-    <button type="submit">Submit</button>
-  </form>
+    </main>
 
-  <div id="info-card"></div>
-
-  <script src="script.js"></script>
-</body>
+    <footer>
+      <section class="infomation">
+        <div class="map">
+          <div class="map-display">
+            <iframe class="smap_iframe" min-width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=644&amp;height=194&amp;hl=en&amp;q=Carlsbad, California&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+            </iframe>
+            <a href="https://connectionsgame.org/">Connections NYT</a>
+          </div>
+        </div>
+        <div>
+          <h2>Bountiful Foods</h2>
+          <p>Carlsbad, California</p>
+          <p>The USA</p>
+          <p>info@bountiful.foods.com</p>
+          <p>+233 2479 34883</p>
+          <a href="https://www.google.com/maps/@5.6037168,-0.1869644,11z"
+            >📍 See Location</a
+          >
+        </div>
+      </section>
+    </div>
+      <section class="modification">
+        <div class="footerTime">
+          &copy; <span id="currentyear"></span><div id="lastModified">Last Modified</div>
+        </div>
+      </section>
+    </footer>
+    <script src="scripts/date.js"></script>
+    
+    
+    
+  </body>
 </html>

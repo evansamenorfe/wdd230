@@ -22,6 +22,9 @@
         margin-left: 5rem;
         margin-top: 40px;
     }
+    .mainheader .socials img {
+        min-width: 35px;
+    }
 
     .mainheader .socials img {
         float: right;
@@ -35,8 +38,9 @@
         font-size: 40px;
         
     }
-        
-    .home {
+    
+   
+    main .home {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
@@ -85,39 +89,6 @@
         grid-row: 2/3;
     } 
 
-    .site-weather .weather #current-temp {
-        font-size: 50px;
-    }
-    .celcius {
-        font-size: 40px;
-    }
-    .site-weather .weather .weather-icon img {
-        width: 100px;
-    }
-    figcaption {
-        font-size: 30px;
-    }
-
-    main .about {
-        display: flex;
-        max-width: 100%;
-    }
-
-    .infomation {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .site-weather {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-    }
-
-
-
-
-
-    /*---------------AAbout Us---------*/
     .contact form {
         justify-content: center;
         align-items: center;
@@ -142,18 +113,9 @@
         font-weight: 700;
         margin: 15px;
     }
-    .contact form input, .contact textarea {
+    .contact form input, .form textarea {
         width: 400px;
         height: 20px;
         
-    }
-    .contact textarea {
-        width: 400px;
-        height:150px;
-    }
-    .all-about-us {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 15px;
     }
 }

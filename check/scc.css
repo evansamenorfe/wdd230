@@ -58,6 +58,7 @@ nav ul li a:hover {
     background-color: #7B7E7F;
 }
 .mainheader .socials img {
+    display: contents;
     width: 50px;
 }
 .mainheader .socials {
@@ -76,13 +77,17 @@ nav ul li a:hover {
     margin-top: 10px;
     margin-left: 10px;
 }
-
+.sidebar .image-container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
 .call-to-action {
     position: relative;
     display: inline-block; /* or block, depending on your layout */
   }
   
-  .call-to-action img {
+.call-to-action img {
     display: block;
     width: 100%;
     height: 400px;
@@ -113,35 +118,27 @@ nav ul li a:hover {
     padding: 10px;
     font-size: 20px;
     border: 2px solid black; 
-    padding: 10px;
-}
-.weather {
-    background-size: cover;
-    background-position: center;
-  }
-  
-.site-weather .weather #current-temp {
-    font-size: 30px;
-}
-.celcius {
-    font-size: 25px;
-}
-.site-weather .weather .weather-icon img {
-    width: 50px;
-}
-figcaption {
-    font-size: 20px;
+    padding: 10px
 }
 .site-weather .weather h2 {
     background-color: #7B7E7F;
     padding: 5px;
 }
-#forecast-container {
-    font-size: 12px;
+#current-temp {
+    font-size: 40px;
 }
-
-
-
+.celcius {
+    font-size: 40px;
+}
+.site-weather .weather .weather-icon img {
+    width: 80px;
+}
+#windChill,
+#windSpeed,
+figcaption,
+.weather-icon p a {
+    font-size: 15px;
+}
 .specialty {
     padding: 10px;
     font-size: 20px;
@@ -158,11 +155,7 @@ figcaption {
     width: 100%;
     height: 400px;
     padding: 10px;;
-
 }
-
-
-/*--------------About Us-----------*/
 .contact form {
     display: flex;
     flex-direction: column;
@@ -172,10 +165,10 @@ figcaption {
     color: black;
 }
 
-.contact form input, .contact textarea {
+.contact form input, .form textarea {
     display: flex;
     font-size: 1em;
-    width: 250px;
+    width: 200px;
     height: 15px;
     padding: 5px;
     margin: 5px auto;
@@ -197,11 +190,12 @@ figcaption {
 label, textarea {
     display: inline-block;
     clear: left;
-    width: 150px;
+    width: 100px;
     text-align: left;
 }
 
 .contact #submit {
+
     background-color:  #7B7E7F;
     color: white;
     cursor: pointer;
@@ -219,59 +213,36 @@ label, textarea {
 
 .contact #submit:hover {
     background-color: #F3DCD1;
-    color: #000000;
 }
 .required {color: red;}
-.about h2 {
-    text-align: center;
-}
-.all-about-us .history,
-.all-about-us .contact {
-    padding: 10px;
-}
-.all-about-us .history h3,
-.all-about-us .contact h3{
-    text-align: center;
-}
 
-
+main .about {
+    display: flex;
+    max-width: 100%;
+}
 
 
 /*----------- Footer --------------*/
-.map{
-    position:relative;
-    text-align:right;
-    min-width:100%;
-    height:194px;
-}
-.map-display {
-    overflow:hidden;
-    background:none!important;
-    width:100%;
-    height:194px;
-}
-.map_iframe {height:194px!important;}
 .modification {
-    background-color: #7B7E7F;
-    font-size: 13px;
-    text-align: center;
-    padding: 10px;
-    
+background-color: #7B7E7F;
+font-size: 13px;
+text-align: center;
+padding: 10px;
 }
-
 .infomation {
-    background-color: #9197A1;
-    text-align: center;
-    padding: 10px;
+background-color: #9197A1;
+text-align: center;
+padding: 10px;
 }
 .infomation p {
-    font-size: 13px;
+font-size: 13px;
 }
 footer {
-    color: #ffffff;
+color: #ffffff;
 }
 footer a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 15px;
+text-decoration: none;
+color: #ffffff;
+font-size: 15px;
 }
+
