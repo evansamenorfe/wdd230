@@ -4,6 +4,7 @@ body {
     padding: 5px;
 }
 
+
 .header-date {
     background-color: #7B7E7F;
     text-align: center;
@@ -26,9 +27,46 @@ body {
     padding-top: 10px;
     background-color: #9197A1;
     height: 80px;
-    
-
 }
+
+div.mainheader div.header-details h1.header-name {
+    font-family: 'Instrument Serif', serif;
+    color: #ffffff;
+}
+section.summary h2{
+    font-family: 'Instrument Serif', serif;
+    font-size: 30px;
+}
+section.summary p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 23px;
+}
+section.site-weather div.weather h2 {
+    font-family: 'Instrument Serif', serif;
+    color: #ffffff;
+    font-size: 30px;
+}
+section.site-weather, div#forecast-container, div.forecast-item p {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.specialty h2 {
+    font-family: 'Instrument Serif', serif;
+    color: #ffffff;
+    font-size: 30px;
+}
+.about h2 {
+    background-color: #7B7E7F;
+    font-family: 'Instrument Serif', serif;
+    color: #ffffff;
+    font-size: 30px;
+}
+.about section.all-about-us {
+    font-family: 'Roboto Slab', serif;
+    font-size: 23px;
+}
+
+
 nav ul li a {
     text-decoration: none;
     color: #ffffff;
@@ -39,8 +77,9 @@ nav ul li a:hover {
 }
 .header-name {
     font-size: 30px;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-top: 35px;
+    display: flex;
 }
 .header-details img {
     width: 110px;
@@ -166,8 +205,6 @@ figcaption {
 .contact form {
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
     margin: 30px auto;
     color: black;
 }
@@ -234,8 +271,67 @@ label, textarea {
     text-align: center;
 }
 
+/*----------- Fresh --------------*/
+.specialty #submit:hover {
+    background-color: #F3DCD1;
+    color: #000000;
+}
+.specialty form {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    color: black;
+}
 
+.specialty form input, .specialty textarea {
+    display: flex;
+    font-size: 1em;
+    width: 250px;
+    height: 15px;
+    padding: 5px;
+    margin: 5px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #e5e5e5;
+}
 
+.specialty form #order-form textarea {
+    height: 50px;
+}
+
+.specialty form #order-form label {
+    font-weight: 100;
+    text-align: left;
+    margin: 5px;
+}
+form #order-form label, textarea {
+    display: inline-block;
+    clear: left;
+    width: 150px;
+    text-align: left;
+}
+#fruit1,
+#fruit2,
+#fruit3 {
+    background-color: #e5e5e5;
+}
+
+.specialty  #order-form button #submit {
+    background-color:  #7B7E7F;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border: #000000;
+    border-radius: 5px;
+    position: relative;
+    z-index: 3;
+    width: 100px;
+    height: 40px;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 8px;
+}
 
 /*----------- Footer --------------*/
 .map{

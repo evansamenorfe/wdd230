@@ -56,17 +56,53 @@
         
     </header>
 
-    <main class="about">
-
+    <main class="specialty">
+      <h2>Order Your Prefered Fresh Drinks</h2>
+      <form id="order-form" action="mailto:evansamenorfe@gmail.com" method="post" enctype="text/plain">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" autocomplete="given-name" required><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" autocomplete="email" required><br>
+      
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" autocomplete="tel" required><br>
+      
+        <label for="fruit1">Fruit 1:</label>
+        <select id="fruit1" required>
+          <option value="">Select a fruit</option>
+          
+        </select><br>
+      
+        <label for="fruit2">Fruit 2:</label>
+        <select id="fruit2" required>
+          <option value="">Select a fruit</option>
+          
+        </select><br>
+      
+        <label for="fruit3">Fruit 3:</label>
+        <select id="fruit3" required>
+          <option value="">Select a fruit</option>
+          
+        </select><br>
+      
+        <label for="instructions">Special Instructions:</label>
+        <textarea id="instructions"></textarea><br>
+      
+        <button type="submit" id="submit">Submit Order</button>
+      </form>
+      
+      <div id="order-summary"></div>
+      
     </main>
 
     <footer>
-      <section class="infomation">
+      <div class="infomation">
         <div class="map">
           <div class="map-display">
             <iframe class="smap_iframe" min-width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=644&amp;height=194&amp;hl=en&amp;q=Carlsbad, California&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
             </iframe>
-            <a href="https://connectionsgame.org/">Connections NYT</a>
+            <a href="https://connectionsgame.org/"> <br>Connections NYT</a>
           </div>
         </div>
         <div>
@@ -79,17 +115,15 @@
             >📍 See Location</a
           >
         </div>
-      </section>
-    </div>
-      <section class="modification">
+      </div>
+    
+      <div class="modification">
         <div class="footerTime">
           &copy; <span id="currentyear"></span><div id="lastModified">Last Modified</div>
         </div>
-      </section>
+      </div>
     </footer>
     <script src="scripts/date.js"></script>
-    
-    
-    
+    <script src="scripts/fresh.js"></script>
   </body>
 </html>

@@ -4,6 +4,31 @@
         justify-content: center;
         padding-top: 40px;
     }
+
+
+    section.summary h2{
+        font-size: 25px;
+    }
+    section.summary p{
+        font-size: 15px;
+    }
+    section.site-weather div.weather h2 {
+        font-size: 25px;
+    }
+    section.site-weather, div#forecast-container, div.forecast-item p {
+        font-size: 15px;
+    }
+    .specialty h2 {
+        font-size: 25px;
+    }
+    .about h2 {
+        font-size: 25px;
+    }
+    .about section.all-about-us {
+        font-family: 'Roboto Slab', serif;
+        font-size: 23px;
+    }
+
     nav ul li a{
         text-align: center;
         padding-right: 40px;
@@ -95,7 +120,7 @@
         width: 100px;
     }
     figcaption {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     main .about {
@@ -112,9 +137,6 @@
         grid-template-columns: 1fr 1fr;
         gap: 10px;
     }
-
-
-
 
 
     /*---------------AAbout Us---------*/
@@ -156,4 +178,44 @@
         grid-template-columns: 1fr 1fr;
         gap: 15px;
     }
+
+    /*------------Fresh---------*/
+    .specialty form {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .specialty textarea {
+        height: 250px;
+    }
+    
+    .specialty form label {
+        font-weight: 700;
+       
+    }
+    .specialty label, textarea { 
+        width: 450px;
+        
+    }
+    
+    .specialty #submit {
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: 700;
+        margin: 15px;
+    }
+    .specialty form input, .specialty textarea {
+        width: 400px;
+        height: 20px;
+        
+    }
+    .specialty textarea {
+        width: 400px;
+        height:150px;
+    }
+    #fruit1,
+#fruit2,
+#fruit3 {
+    width: 25rem;
+}
 }
