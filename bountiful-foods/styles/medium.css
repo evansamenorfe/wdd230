@@ -20,6 +20,8 @@
     }
     .specialty h2 {
         font-size: 25px;
+        text-align: center;
+        
     }
     .about h2 {
         font-size: 25px;
@@ -214,8 +216,11 @@
         height:150px;
     }
     #fruit1,
-#fruit2,
-#fruit3 {
-    width: 25rem;
-}
+    #fruit2,
+    #fruit3 {
+        width: 25rem;
+    }
+    .specialty div.info-card {
+        text-align: center;
+    }
 }
