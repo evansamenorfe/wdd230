@@ -3,6 +3,35 @@ body {
     background-color: #F3DCD1;
     padding: 5px;
 }
+nav ul {
+    display: none;
+}
+nav ul.open {
+    display: block;
+}
+
+#humburgerbtn span:nth-child(1) {
+    display: block;
+}
+#humburgerbtn span:nth-child(2) {
+    display: none;
+}
+  
+#humburgerbtn.open span:nth-child(1) {
+    display: none;
+}
+#humburgerbtn.open span:nth-child(2) {
+    display: block;
+}
+button {
+    background-color: #9197A1;
+    width: 100%;
+    height: 40px;
+}
+#humburgerbtn {
+    height: 50px;
+}
+  
 
 
 .header-date {
